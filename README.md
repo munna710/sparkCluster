@@ -8,13 +8,15 @@ This project provides an end-to-end data processing and visualization of visa nu
 - [Usage](#-usage)
 - [Features](#-features)
 - [Notes](#-notes)
-- [Video](#-video)
+
 
 ## System Architecture
 ![System Architecture](assets/Sparkcluster_architecture.png)
 
 ## 🛠 Setup & Requirements
 1. **Azure Account**: Ensure you have an active Azure account.
+- create virual machine
+![](assets/vm.png)
 2. **Docker**: The Spark master-worker architecture is set up in a Docker container on Azure.
 3. **Python Libraries**: Install the required Python libraries:
    - PySpark
@@ -39,4 +41,9 @@ This project provides an end-to-end data processing and visualization of visa nu
 ## 📝 Notes
 - Ensure that your Azure and Docker setups are correctly configured to allow the Spark master-worker architecture to function seamlessly.
 - The country name corrections and continent mapping are based on the `pycountry` and `pycountry_convert` libraries. Ensure that these libraries are up-to-date to get accurate results.
-- You can adjust the manual mappings in the `country_mapping` dictionary in the `main.py` file to correct any country names that are not correctly matched.
+- You can adjust the manual mappings in the `country_mapping` dictionary in the `visualisation.py` file to correct any country names that are not correctly matched.
+
+## Analysis
+![](assets/analysis1.png)
+![](assets/analysis2.png)
+![](assets/analysis3.png)
