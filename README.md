@@ -19,6 +19,7 @@ This project provides an end-to-end data processing and visualization of visa nu
 ![](assets/vm.png)
 - Create inbound port rule
 ![](assets/port.png)
+![](assets/vm2.png)
 2. **Docker**: The Spark master-worker architecture is set up in a Docker container on Azure.
 3. **Python Libraries**: Install the required Python libraries:
    - PySpark
